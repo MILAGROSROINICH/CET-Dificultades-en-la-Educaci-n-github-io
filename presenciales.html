@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/libros.png" type="image/x-icon">
+    <link rel="stylesheet" href="virtuales.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Cursos presenciales</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./Principal.html">EduSmart</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./mision.html">Nuestra mision</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./recomendaciones.html">Recomendaciones</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./recursos.html">Recursos online</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="3" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Cursos
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="./presenciales.html">Presenciales</a></li>
+                                <li><a class="dropdown-item" href="./virtuales.html">Virtuales</a></li>
+                                <li><a class="dropdown-item" href="./bajo costo.html">Bajo costo</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <h1 class="presenciales"> Presenciales </h1>
+    <h6 class="presenciales1"> Explora nuestros cursos en esta seccion</h6>
+<!-- Tarjetas con cursos
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-12 mb-4">
+                <div class="card">
+                    <img src="./img/cienciaseconomicas.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Ciencias económicas</h5>
+                        <p class="card-text">Encuentra aquí cursos sobre contabilidad, finanzas, economía y ¡Mucho más!</p>
+                        <a href="./economicas.html" class="btn btn-primary">Más información</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 mb-4">
+                <div class="card">
+                    <img src="./img/cienciassociales.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Ciencias sociales</h5>
+                        <p class="card-text">Encuentra aquí cursos sobre historia, geografía, sociología y ¡Mucho más!</p>
+                        <a href="#" class="btn btn-primary">Más información</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 mb-4">
+              <div class="card">
+                  <img src="./img/tecnologia.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                      <h5 class="card-title">Tecnologia</h5>
+                      <p class="card-text">Encuentra aquí cursos sobre informatica, robotica, programación y ¡Mucho más!</p>
+                      <a href="#" class="btn btn-primary">Más información</a>
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-12 mb-4">
+            <div class="card">
+                <img src="./img/oficios.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Oficios</h5>
+                    <p class="card-text">Encuentra aquí cursos sobre carpinteria, peluqueria, electricidad ¡Mucho más!</p>
+                    <a href="./" class="btn btn-primary">Más información</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12 mb-4">
+          <div class="card">
+              <img src="./img/arte.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                  <h5 class="card-title">Arte</h5>
+                  <p class="card-text">Encuentra aquí cursos sobre diseño, impresión 3D, pintura y ¡Mucho más!</p>
+                  <a href="#" class="btn btn-primary">Más información</a>
+              </div>
+          </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-12 mb-4">
+        <div class="card">
+            <img src="./img/educacion.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Educación</h5>
+                <p class="card-text">Encuentra aquí cursos sobre docencia, profesorados y ¡Mucho más!</p>
+                <a href="#" class="btn btn-primary">Más información</a>
+            </div>
+        </div>
+    </div> 
+        </div> -->
+
+    <!-- Carrusel con imágenes -->
+
+    <!-- Agrego un div que tenga dentro el carousel, para poder centrarlo en la página,
+    y una clase a las imágenes para que tengan todas el mismo tamaño -->
+    <div id="carrousel-provincias">
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./img/Buenos aires.jpg" class="d-block w-100 img-carrousel-provincias" alt="...">
+              <p class="provincias">Buenos Aires</p>
+          </div>
+          <div class="carousel-item">
+            <img src="./img/Mendoza.jpg" class="d-block w-100 img-carrousel-provincias" alt="...">
+              <p class="provincias">Mendoza</p>
+          </div>
+          <div class="carousel-item">
+            <img src="./img/Cordoba.jpg" class="d-block w-100 img-carrousel-provincias" alt="...">
+              <p class="provincias">Córdoba</p>
+          </div>
+          <div class="carousel-item">
+            <img src="./img/Catamarca.jpg" class="d-block w-100 img-carrousel-provincias" alt="...">
+              <p class="provincias">Catamarca</p>
+          </div>
+          <div class="carousel-item">
+            <img src="./img/Chaco.jpg" class="d-block w-100 img-carrousel-provincias" alt="...">
+              <p class="provincias">Chaco</p>
+          </div>
+          <div class="carousel-item">
+            <img src="./img/Chubut.jpg" class="d-block w-100 img-carrousel-provincias" alt="...">
+              <p class="provincias">Chubut</p>
+          </div>
+          <div class="carousel-item">
+            <img src="./img/Corrientes.jpg" class="d-block w-100 img-carrousel-provincias" alt="...">
+              <p class="provincias">Corrientes</p>
+          </div>
+          <div class="carousel-item">
+            <img src="./img/Entre Rios.jpg" class="d-block w-100 img-carrousel-provincias" alt="...">
+              <p class="provincias">Entre Rios</p>
+          </div>
+          <div class="carousel-item">
+            <img src="./img/Formosa.jpg" class="d-block w-100 img-carrousel-provincias" alt="...">
+              <p class="provincias">Formosa</p>
+          </div>
+          <div class="carousel-item">
+            <img src="./img/Jujuy.jpg" class="d-block w-100 img-carrousel-provincias" alt="...">
+              <p class="provincias">Jujuy</p>
+          </div>
+          <div class="carousel-item">
+            <img src="./img/La Pampa.jpg" class="d-block w-100 img-carrousel-provincias" alt="...">
+              <p class="provincias">La Pampa</p>
+          </div>
+          <div class="carousel-item">
+            <img src="./img/La Rioja.jpg" class="d-block w-100 img-carrousel-provincias" alt="...">
+              <p class="provincias">La Rioja</p>
+          </div>
+          <div class="carousel-item">
+            <img src="./img/Mendoza.jpg" class="d-block w-100 img-carrousel-provincias" alt="...">
+              <p class="provincias">Mendoza</p>
+          </div>
+          <div class="carousel-item">
+            <img src="./img/Misiones.jpg" class="d-block w-100 img-carrousel-provincias" alt="...">
+              <p class="provincias">Misiones</p>
+          </div>
+          <div class="carousel-item">
+            <img src="./img/Neuquen.jpg" class="d-block w-100 img-carrousel-provincias" alt="...">
+              <p class="provincias">Neuquén</p>
+          </div>
+          <div class="carousel-item">
+            <img src="./img/Rio negro.jpg" class="d-block w-100 img-carrousel-provincias" alt="...">
+              <p class="provincias">Rio Negro</p>
+          </div>
+          <div class="carousel-item">
+            <img src="./img/Salta.jpg" class="d-block w-100 img-carrousel-provincias" alt="...">
+              <p class="provincias">Salta</p>
+          </div>
+          <div class="carousel-item">
+            <img src="./img/San Juan.jpg" class="d-block w-100 img-carrousel-provincias" alt="...">
+              <p class="provincias">San Juan</p>
+          </div>
+          <div class="carousel-item">
+            <img src="./img/San Luis.jpg" class="d-block w-100 img-carrousel-provincias" alt="...">
+              <p class="provincias">San Luis</p>
+          </div>
+          <div class="carousel-item">
+            <img src="./img/Santa Cruz.jpg" class="d-block w-100 img-carrousel-provincias" alt="...">
+              <p class="provincias">Santa Cruz</p>
+          </div>
+          <div class="carousel-item">
+            <img src="./img/Santiago del Estero.jpg" class="d-block w-100 img-carrousel-provincias" alt="...">
+              <p class="provincias">Santiago del Estero</p>
+          </div>
+          <div class="carousel-item">
+            <img src="./img/Tierra del Fuego.jpg" class="d-block w-100 img-carrousel-provincias" alt="...">
+              <p class="provincias">Tierra del Fuego</p>
+          </div>
+          <div class="carousel-item">
+            <img src="./img/Tucuman.png" class="d-block w-100 img-carrousel-provincias" alt="...">
+              <p class="provincias">Tucumán</p>
+          </div>
+          <div class="carousel-item">
+            <img src="./img/Santa Fe.jpg" class="d-block w-100 img-carrousel-provincias" alt="...">
+              <p class="provincias">Santa Fe</p>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+  </div>
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
+</html>

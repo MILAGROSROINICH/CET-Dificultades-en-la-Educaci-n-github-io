@@ -1,0 +1,186 @@
+.background-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url('./img/766efde0-8112-417a-b3a9-f2e54ffbc065.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.background-container2 {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url('./img/mision2.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 254, 254);
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
+
+.text-overlay2 {
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    transform: translate(-20%, -20%);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: x-large ;
+    font-weight: lighter;
+    text-shadow: 2px 2px 0px rgb(0, 0, 0);
+}
+
+h2{
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    transform: translate(-20%, -20%);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: x-large ;
+    font-weight: lighter;
+    text-shadow: 2px 2px 0px rgb(0, 0, 0);
+}
+
+#Titulomision {
+    position: absolute;
+    top: 5%;
+    left: 45%;
+    transform: translate(-20%, -20%);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: xx-large;
+    font-weight:bolder;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.navbar-brand
+{
+    font-weight: 700;
+}
+
+
+
+.test {
+    text-align: center;
+    font-weight: bolder;
+    color: #52ACE1
+} 
+
+.test2{
+    text-align: center;
+    font-weight: lighter;
+    font-size:medium;
+}
+
+.recursos {
+    text-align: center;
+    font-weight: bolder;
+    color: #52ACE1; 
+}
+
+.recursos1 {
+    text-align: center;
+    font-weight: lighter ;
+    font-size: medium;
+}
+
+.contacto {
+    text-align: center;
+    font-weight: bolder;
+    color: #52ACE1; 
+}
+
+.contacto2{
+    text-align: center;
+    font-weight: lighter ;
+    font-size: medium;
+}
+
+.mb-3 {
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.boton {
+    margin-left: 3%;
+    margin-top: 1%;
+    margin-right: 3%;
+    margin-bottom: 1%;
+    background-color: #52ACE1;
+    font-weight: lighter;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    display: inline-block; 
+    padding: 5px 10px; 
+    font-size: 18px
+}
+
+#boton {
+    margin-left: 3%;
+    margin-top: 2%;
+    margin-right: 3%;
+    background-color: #52ACE1;
+    font-weight: lighter;
+    cursor: pointer;
+    border-radius: 5px;
+    display: inline-block; 
+    padding: 5px 10px; 
+    font-size: 18px
+}
+
+.form-check{
+    margin-left: 3%;
+}
+
+.form-floating {
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.form-select {
+    color: #52ACE1;
+}
+
+
+.list-group {
+    margin-left: 3%;
+    margin-top: 3%;
+    margin-right: 3%;
+}
+
+
+.list-group-item {
+    display: block; 
+    padding: 15px; 
+    margin-bottom: 10px;
+    background-color: #ffffff; 
+    border: 1px solid #ddd;/
+    border-radius: 5px; 
+    text-decoration: none; 
+    color: #333; 
+    font-size: 18px; 
+    transition: background-color 0.3s, color 0.3s; 
+}
+
+.list-group-item:hover {
+    background-color: #f8f9fa; 
+    color: #007bff; 
+}
+
+.list-group-item:active {
+    background-color: #e2e6ea;
+    color: #0056b3; 
+}
+
